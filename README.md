@@ -3,7 +3,7 @@
 This Dockerfile creates an ssh service inside a docker container
 
 
-* default user an password is test
+* default user and password is test
 
 i also wrote about it [here](https://dev.to/s1ntaxe770r/how-to-setup-ssh-within-a-docker-container-i5i)
 
