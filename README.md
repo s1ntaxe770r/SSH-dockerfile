@@ -13,7 +13,7 @@ i also wrote about why you'd want to do this here [here](https://dev.to/s1ntaxe7
 ## Building the image
 
 
-` docker build -t IMAGE_NAME ` 
+` docker build -t IMAGE_NAME . ` 
 
 ## Runing the image 
 
