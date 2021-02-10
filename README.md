@@ -17,7 +17,7 @@ i also wrote about why you'd want to do this here [here](https://dev.to/s1ntaxe7
 
 ## Runing the image 
 
-` docker run IMAGE_NAME -p 22:22 `
+` docker run -p 22:22 IMAGE_NAME `
 
 
 ## Or simply pull the image 
