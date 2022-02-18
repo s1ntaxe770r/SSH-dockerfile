@@ -8,6 +8,8 @@ RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 test
 
 RUN usermod -aG sudo test
 
+RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+
 RUN service ssh start
 
 RUN  echo 'test:test' | chpasswd
